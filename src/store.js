@@ -57,5 +57,5 @@ store.dispatch({
 });
 console.log(store.getState());
 
-store.dispatch("account/payloan");
+store.dispatch({ type: "account/payloan" });
 console.log(store.getState());
